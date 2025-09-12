@@ -55,3 +55,16 @@ img{
    height: 125px;
     width: 140px; 
 }
+.box:nth-child(2)>div>img,
+.box:nth-child(4)>div>img{
+    width: 140px;
+    height: 125px;
+}
+.box:nth-child(1)>div>img,
+.box:nth-child(3)>div>img{
+    width: 140px;
+    height: 125px;
+}
+.box:hover{
+    cursor: pointer;
+}
